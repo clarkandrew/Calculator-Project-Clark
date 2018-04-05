@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculator-Clark</string>
+    <string name="valZero">0</string>
+    <string name="valC">C</string>
+    <string name="valCE">CE</string>
+    <string name="valPlusMin">+/-</string>
+    <string name="valDiv">/</string>
+    <string name="val7">7</string>
+    <string name="val8">8</string>
+    <string name="val9">9</string>
+    <string name="valPlus">+</string>
+    <string name="val4">4</string>
+    <string name="val5">5</string>
+    <string name="val6">6</string>
+    <string name="valSub">-</string>
+    <string name="val2">2</string>
+    <string name="val3">3</string>
+    <string name="valMulti">*</string>
+    <string name="valDot">.</string>
+    <string name="valEquals">=</string>
+    <string name="val1">1</string>
+</resources>

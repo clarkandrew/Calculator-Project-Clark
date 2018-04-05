@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    tools:context="com.example.andrewclark.calculator_clark.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@dimen/displayTextHeightHori"
+        android:background="@color/secondaryColor"
+        android:gravity="center"
+        android:padding="@dimen/TextPadding"
+        android:text="@string/valZero"
+        android:textAlignment="textEnd"
+        android:textSize="@dimen/TextSizeHori" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:useDefaultMargins="false"
+        android:background="@color/secondaryColor"
+        >
+
+        <Button
+            android:id="@+id/but7"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val7"
+            />
+
+        <Button
+            android:id="@+id/but8"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val8"
+            />
+
+
+        <Button
+            android:id="@+id/but9"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val9"
+            />
+
+        <Button
+            android:id="@+id/butPlus"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valPlus"
+            />
+
+        <Button
+            android:id="@+id/butC"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valC"
+
+            />
+
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val4"
+            />
+
+
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val5"
+            />
+
+        <Button
+            android:id="@+id/but6"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val6"
+            />
+        <Button
+            android:id="@+id/butSub"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valSub"
+            />
+
+
+        <Button
+            android:id="@+id/butCE"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valCE"
+            />
+
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val1"
+            />
+
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val2"
+            />
+
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/val3"
+            />
+
+
+        <Button
+            android:id="@+id/butMulti"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valMulti"
+            />
+
+
+
+        <Button
+            android:id="@+id/butDiv"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valDiv"
+            />
+
+        <Button
+            android:id="@+id/but0"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valZero"
+            />
+
+
+        <Button
+            android:id="@+id/butDot"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valDot"
+            />
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/butPlusMin"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/button_default"
+            android:textColor="@color/defaultTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valPlusMin"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/butEquals"
+            android:layout_gravity="fill_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_margin="@dimen/buttonMarg"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:background="@drawable/button_equals"
+            android:textColor="@color/equalsTextColor"
+            android:textSize="@dimen/defaultTextSize"
+            android:text="@string/valEquals"
+            />
+
+    </GridLayout>
+</LinearLayout>
